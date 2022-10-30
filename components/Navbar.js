@@ -26,21 +26,33 @@ const Navbar = () => {
                     <a href='#'>FAQS</a>
                     <a href='#'>About</a>
                 </div>
-                <Menu>
-                    <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>Gift Cards</MenuButton>
-                    <MenuList>
-                        <MenuItem minH='48px'>
-                            <Image
-                                boxSize='2rem'
-                                borderRadius='full'
-                                src='https://placekitten.com/100/100'
-                                alt='Fluffybuns the destroyer'
-                                mr='12px'
-                            />
-                            <span>Amazon</span>
-                        </MenuItem>
-                    </MenuList>
-                </Menu>
+                <div className='hidden md:block'>
+                    <Menu>
+                        <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>Gift Cards</MenuButton>
+                        <MenuList>
+                            <MenuItem minH='48px'>
+                                <Image
+                                    boxSize='2rem'
+                                    borderRadius='full'
+                                    src='https://placekitten.com/100/100'
+                                    alt='Fluffybuns the destroyer'
+                                    mr='12px'
+                                />
+                                <span>Amazon</span>
+                            </MenuItem>
+                            <MenuItem minH='48px'>
+                                <Image
+                                    boxSize='2rem'
+                                    borderRadius='full'
+                                    src='https://placekitten.com/100/100'
+                                    alt='Fluffybuns the destroyer'
+                                    mr='12px'
+                                />
+                                <span>Google Play</span>
+                            </MenuItem>
+                        </MenuList>
+                    </Menu>
+                </div>
             </div>
         </nav>
     )
