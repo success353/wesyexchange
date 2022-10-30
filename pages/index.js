@@ -1,12 +1,11 @@
-import { VStack } from '@chakra-ui/react'
+
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 
 const index = () => {
   return (
-    <VStack>
-      N
-    </VStack>
+    <Navbar />
   )
 }
 
