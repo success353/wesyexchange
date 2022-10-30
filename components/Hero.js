@@ -1,5 +1,6 @@
+import { Button } from '@chakra-ui/react'
+import Image from 'next/image'
 import React from 'react'
-
 const Hero = () => {
     return (
         <section id="hero">
@@ -17,6 +18,18 @@ const Hero = () => {
                     >
                         Wesy Makes it easier to trade your Gift Cards and Cryptos
                     </p>
+                    <div className="flex justify-center md:justify-start">
+                        <Button>Trade Now</Button>
+                    </div>
+                </div>
+                <div className="md-w-1/2">
+                    <Image
+                        src='https://www.pngkit.com/png/full/238-2385610_free-gift-cards.png'
+                        layout='responsive'
+                        alt=''
+                        width={500}
+                        height={500}
+                    />
                 </div>
             </div>
         </section>
