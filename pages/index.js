@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
+import Features from '../components/Features'
 
 const index = () => {
   return (
@@ -15,6 +16,9 @@ const index = () => {
 
       {/* Hero Section */}
       <Hero />
+
+      {/* Features Section */}
+      <Features />
     </div>
   )
 }
