@@ -6,8 +6,8 @@ const Navbar = () => {
     return (
         <Box as='nav'>
             <HStack>
-                <NextLink passHref=''>
-                    <Link></Link>
+                <NextLink href='#' passHref>
+                    <Link>Docs</Link>
                 </NextLink>
             </HStack>
 
